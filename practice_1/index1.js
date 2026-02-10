@@ -15,7 +15,7 @@
 //  console.log(`i just got my gpa checked its ${gpa}`);
 //  console.log(typeof gpa , typeof price);
  
-//STRING (VARIABLE TYPE)
+// STRING (VARIABLE TYPE)
 
 // let firstName = "Jango";
 // let Favsports = "Football";
@@ -31,12 +31,20 @@
 // console.log(`jango is now online: ${online}`);
 // console.log(`The new car has already been sold out: ${sold}`);
 
-let fullName = "Jango";
-let age = 25;
-let student = false;
+// let fullName = "Jango";
+// let age = 25;
+// let student = false;
 
-document.getElementById("p1").textContent = `your name is ${fullName} right?`;
-document.getElementById("p2").textContent = `its given your age is ${age}`;
-document.getElementById("p3").textContent = `are you a student now: ${student}`;
+// document.getElementById("p1").textContent = `your name is ${fullName} right?`;
+// document.getElementById("p2").textContent = `its given your age is ${age}`;
+// document.getElementById("p3").textContent = `are you a student now: ${student}`;
 
 
+
+/* arithmetic operators */  //-> operands (values, variables, etc)
+                            // operators (+,-,*,/,**(exponent))
+                            // exmple:   11 = x + 5;
+                            
+let students = 30;
+
+console.log(students);
