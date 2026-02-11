@@ -15,6 +15,8 @@
 //  console.log(`i just got my gpa checked its ${gpa}`);
 //  console.log(typeof gpa , typeof price);
  
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
 // STRING (VARIABLE TYPE)
 
 // let firstName = "Jango";
@@ -24,6 +26,8 @@
 // console.log(`Youre name is ${firstName}?`);
 // console.log(`So you do like ${Favsports}`);
 // console.log(`${firstName} always like ${Favsports} i know that.`);
+
+/*-------------------------------------------------------------------------------------------------------------------------------- */
 
 // BOOLEANS (VARIABLE TYPE)
 // let online = false;
@@ -39,7 +43,7 @@
 // document.getElementById("p2").textContent = `its given your age is ${age}`;
 // document.getElementById("p3").textContent = `are you a student now: ${student}`;
 
-
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* arithmetic operators */  //-> operands (values, variables, etc)
                             // operators (+,-,*,/,**(exponent))
@@ -47,4 +51,36 @@
                             
 let students = 30;
 
-console.log(students);
+//students = students + 1;
+//students = students - 1;
+//students = students * 2;
+//students = students / 2;
+//students = students ** 2;
+//students = students % 2; //gives reminder(modulus operator)
+
+/* Augmented assignment operators */
+
+// students += 3;
+//students -= 1;
+//students *= 2;
+//students /= 2;
+//students **=2;
+//students %= 2;
+
+/*increment decremnt opertr */
+
+//students++;
+//students--;
+
+//console.log(students);
+
+/* 
+OPERATOR PRECEDENCE
+1. parenthesis()
+2. exponents
+3.multiplication & division & modulus
+4. addition & subtraction
+*/
+
+let result = 1 + 2 * 3 + 4 ** 2;
+console.log(result);
