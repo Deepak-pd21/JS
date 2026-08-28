@@ -7,6 +7,7 @@
 
     document.getElementById("myh").textContent = 'Hello';
     document.getElementById("myp").textContent = `Fahhhhh`;
+    document.getElementById("p1").textContent = 'Jaango';
 
     // variable: a container that store value.
     //  1.declaration    let x;
